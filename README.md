@@ -5,12 +5,12 @@ See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/pr
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
 -->
 
-2020 MODIS derived gridded snow cover compared to reference period
+Gridded snow cover for 2020 compared to reference period
 ============================
 
 ### Usage
 
--   gee link to generate average snow cover GeoTiff [https://code.earthengine.google.com/536d9807cf652870ba9264793bf5ebd9]
+-   Google Earth Engine (GEE) link to generate average snow cover GeoTiff [https://code.earthengine.google.com/536d9807cf652870ba9264793bf5ebd9]
 -   R script to generate plots [R/01_load_and_plot.R]
 
 #### Example
