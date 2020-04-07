@@ -65,28 +65,28 @@ library(sf)
 
   # last 5 days
   plot_5 <-
-   myp(r = r5, l = 1, t = paste0("Average of the last 5 days\nReference years 1999-2019")) |
-   myp(r = r5, l = 2, t = paste0("Average of the last 5 days\nCurrent year 2020")) |
+   myp(r = r5, l = 1, t = paste0("Average of the last 5 days\nReference years 1999-2019")) /
+   myp(r = r5, l = 2, t = paste0("Average of the last 5 days\nCurrent year 2020")) /
    myp(r = r5, l = 4, t = paste0("Percent of Normal\nLast 5 days, compared to 1999-2019 average"), min = 0, max = 200, fill_lab = "Percent of Normal (%)", cap = paste("Date published:",ref_date,"\nAuthor: A. Bevington (FLNRORD)"));
-  ggsave(plot = plot_5, filename = "out/BC_snow_plot_5days.png", width = 20, height = 8)
+  ggsave(plot = plot_5, filename = "out/BC_snow_plot_5days.png", height = 12)
 
   # last 10 days
   plot_10 <-
-    myp(r = r10, l = 1, t = paste0("Average of the last 10 days\nReference years 1999-2019")) |
-    myp(r = r10, l = 2, t = paste0("Average of the last 10 days\nCurrent year 2020")) |
+    myp(r = r10, l = 1, t = paste0("Average of the last 10 days\nReference years 1999-2019")) /
+    myp(r = r10, l = 2, t = paste0("Average of the last 10 days\nCurrent year 2020")) /
     myp(r = r10, l = 4, t = paste0("Percent of Normal\nLast 10 days, compared to 1999-2019 average"), min = 0, max = 200, fill_lab = "Percent of Normal (%)", cap = paste("Date published:",ref_date,"\nAuthor: A. Bevington (FLNRORD)"));
-  ggsave(plot = plot_10, filename = "out/BC_snow_plot_10days.png", width = 20, height = 8)
+  ggsave(plot = plot_10, filename = "out/BC_snow_plot_10days.png", height = 12)
 
   # last 20 days
   plot_20 <-
-    myp(r = r20, l = 1, t = paste0("Average of the last 20 days\nReference years 1999-2019")) |
-    myp(r = r20, l = 2, t = paste0("Average of the last 20 days\nCurrent year 2020")) |
+    myp(r = r20, l = 1, t = paste0("Average of the last 20 days\nReference years 1999-2019")) /
+    myp(r = r20, l = 2, t = paste0("Average of the last 20 days\nCurrent year 2020")) /
     myp(r = r20, l = 4, t = paste0("Percent of Normal\nLast 20 days, compared to 1999-2019 average"), min = 0, max = 200, fill_lab = "Percent of Normal (%)", cap = paste("Date published:",ref_date,"\nAuthor: A. Bevington (FLNRORD)"));
-  ggsave(plot = plot_20, filename = "out/BC_snow_plot_20days.png", width = 20, height = 8)
+  ggsave(plot = plot_20, filename = "out/BC_snow_plot_20days.png", height = 12)
 
   # last 30 days
   plot_30 <-
-    myp(r = r30, l = 1, t = paste0("Average of the last 30 days\nReference years 1999-2019")) |
-    myp(r = r30, l = 2, t = paste0("Average of the last 30 days\nCurrent year 2020")) |
+    myp(r = r30, l = 1, t = paste0("Average of the last 30 days\nReference years 1999-2019")) /
+    myp(r = r30, l = 2, t = paste0("Average of the last 30 days\nCurrent year 2020")) /
     myp(r = r30, l = 4, t = paste0("Percent of Normal\nLast 30 days, compared to 1999-2019 average"), min = 0, max = 200, fill_lab = "Percent of Normal (%)", cap = paste("Date published:",ref_date,"\nAuthor: A. Bevington (FLNRORD)"));
-  ggsave(plot = plot_30, filename = "out/BC_snow_plot_30days.png", width = 20, height = 8)
+  ggsave(plot = plot_30, filename = "out/BC_snow_plot_30days.png", height = 12)

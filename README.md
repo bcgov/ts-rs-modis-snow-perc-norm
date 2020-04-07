@@ -5,7 +5,7 @@ See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/pr
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
 -->
 
-MODIS snow cover (% of reference)
+BC MODIS snow cover (% of reference)
 ============================
 
 ### Usage
@@ -15,7 +15,7 @@ MODIS snow cover (% of reference)
 
 #### Example
 
-![Image description](out/BC_snow_plot_30days.png)
+![BC MODIS snow cover (% of reference) for last 30 days](out/BC_snow_plot_30days.png)
 
 ### Project Status
 
