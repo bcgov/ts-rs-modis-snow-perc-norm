@@ -5,7 +5,7 @@ See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/pr
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
 -->
 
-Gridded snow cover for 2020 compared to reference period
+MODIS snow cover (% of reference)
 ============================
 
 ### Usage
