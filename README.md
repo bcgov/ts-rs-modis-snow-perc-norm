@@ -5,27 +5,17 @@ See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/pr
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
 -->
 
-2020_RiverFC
+2020 MODIS gridded derived snow cover compared to reference period
 ============================
 
 ### Usage
 
-Describe data being used (links), and how to run. Eg:
-
-There are four core scripts that are required for the analysis, they need to be run in order:
-
--   01\_clean.R
--   02\_analysis.R
--   03\_visualize.R
--   04\_output.R
+-   gee link to generate average snow cover GeoTiff [https://code.earthengine.google.com/536d9807cf652870ba9264793bf5ebd9]
+-   R script to generate plots [R/01_load_and_plot.R]
 
 #### Example
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-## basic example code
-```
+![Image description](out/BC_snow_plot_30days.png)
 
 ### Project Status
 
