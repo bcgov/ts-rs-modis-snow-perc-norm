@@ -5,7 +5,7 @@ See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/pr
 If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
 -->
 
-2020 MODIS gridded derived snow cover compared to reference period
+2020 MODIS derived gridded snow cover compared to reference period
 ============================
 
 ### Usage
@@ -18,6 +18,8 @@ If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badg
 ![Image description](out/BC_snow_plot_30days.png)
 
 ### Project Status
+
+In development / exploration status.
 
 ### Getting Help or Reporting an Issue
 
