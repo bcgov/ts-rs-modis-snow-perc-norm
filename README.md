@@ -15,7 +15,9 @@ BC MODIS snow cover (% of reference)
 
 ### Example
 
-![BC MODIS snow cover (% of reference) for last 30 days](out/BC_snow_plot_30days.png =250x)
+<p align="center">
+  <img src="out/BC_snow_plot_10days.png" alt="BC MODIS snow cover (% of reference) for last 10 days" width="60%"/>
+</p>
 
 ### Project Status
 
