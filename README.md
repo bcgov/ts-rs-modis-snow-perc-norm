@@ -13,9 +13,9 @@ BC MODIS snow cover (% of reference)
 -   Google Earth Engine (GEE) link to generate average snow cover GeoTiff [https://code.earthengine.google.com/536d9807cf652870ba9264793bf5ebd9]
 -   R script to generate plots [R/01_load_and_plot.R]
 
-#### Example
+### Example
 
-![BC MODIS snow cover (% of reference) for last 10 days](out/BC_snow_plot_10days.png)
+![BC MODIS snow cover (% of reference) for last 10 days](out/BC_snow_plot_10days.png | width=100)
 
 ### Project Status
 
