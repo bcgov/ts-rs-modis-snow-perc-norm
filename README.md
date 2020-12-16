@@ -1,9 +1,4 @@
-<!-- 
-Add a project state badge
-
-See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/projectstates.md> 
-If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
--->
+![img](https://img.shields.io/badge/Lifecycle-Experimental-339999)
 
 BC MODIS snow cover (% of reference)
 ============================
